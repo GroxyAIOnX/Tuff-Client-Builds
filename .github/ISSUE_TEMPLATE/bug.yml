@@ -1,0 +1,43 @@
+name: Bug Report
+description: Report a bug with TuffClient
+
+labels: "bug,needs-testing"
+title: "[Bug]: "
+type: Bug
+
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us what you expected to happen.
+      placeholder: Explain the bug...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How to Reproduce
+      description: *Exact* steps to reproduce this issue
+      placeholder: 1. did this 2. then this...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version(s)
+      description: What versions of TuffClient have this bug?
+      options: 1.0, 1.1UT13, 1.1UT12...
+    validations:
+      required: true
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Agreements
+      description: By submitting this issue, you understand that:
+      options:
+        - label: I have checked the pinned issue(s) if this issue has been explained
+        - label: I have searched previous issues to see if this bug has already been reported
+        - label: I have ignored this and checked all the boxed
+        - label: I have given all the information I can to help the developers understand/reproduce this bug
+        
