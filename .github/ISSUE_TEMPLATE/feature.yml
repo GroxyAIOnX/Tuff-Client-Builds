@@ -18,7 +18,7 @@ body:
     id: info
     attributes:
       value: |
-          Additional Information
+          ## Additional Information
           Provide links, screenshots, etc to greater explain your feature or compatibility request.
     validations:
       required: false
