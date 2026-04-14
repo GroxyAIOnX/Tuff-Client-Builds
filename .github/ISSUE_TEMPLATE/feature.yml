@@ -1,7 +1,7 @@
 name: Feature Request
 description: Request for a new feature or to add compatibility to TuffClient
 
-labels: "encancement"
+labels: "enhancement"
 title: "[Feature]: "
 type: Feature
 
@@ -14,12 +14,11 @@ body:
       placeholder: Explain...
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: info
     attributes:
-      value: |
-          ## Additional Information
-          Provide links, screenshots, etc to greater explain your feature or compatibility request.
+      label: Additional Information
+      placeholder: Provide links, screenshots, etc to greater explain your feature or compatibility request.
     validations:
       required: false
   - type: checkboxes
