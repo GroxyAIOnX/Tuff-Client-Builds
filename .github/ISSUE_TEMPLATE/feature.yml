@@ -1,0 +1,33 @@
+name: Feature Request
+description: Request for a new feature or to add compatibility to TuffClient
+
+labels: "encancement"
+title: "[Feature]: "
+type: Feature
+
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: What are you requesting?
+      description: Describe the feature you are requesting
+      placeholder: Explain...
+    validations:
+      required: true
+  - type: markdown
+    id: info
+    attributes:
+      label: Additional Information
+      description: Provide links, screenshots, etc to greater explain your feature or compatibility request.
+    validations:
+      required: false
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Agreements
+      description: "By submitting this issue, you understand that:"
+      options:
+        - label: I have checked the pinned issue(s) if this issue has been explained
+        - label: I have searched previous issues to see if this feature has already been requested or added
+        - label: I have ignored this and checked all the boxes
+        - label: I have given all the information I can to help the developers understand this request
