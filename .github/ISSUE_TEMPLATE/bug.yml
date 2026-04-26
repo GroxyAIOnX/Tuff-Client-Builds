@@ -40,3 +40,4 @@ body:
         - label: I have searched previous issues to see if this bug has already been reported
         - label: I have ignored this and checked all the boxes
         - label: I have given all the information I can to help the developers understand/reproduce this bug
+        - label: "I have reported only *one* bug in this issue"
