@@ -32,3 +32,6 @@ body:
         - label: I have ignored this and checked all the boxes
         - label: I have given all the information I can to help the developers understand this request
         - label: "I have requested only *one* feature in this issue"
+  - type: markdown
+    attributes:
+      value: "*Requests that do not fulfill the requirements will be marked invalid, ignored, and/or closed. This includes failure to do the required actions on the Agreements section.*"
